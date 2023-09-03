@@ -15,3 +15,6 @@ DJANGO REST Framework Views: 1. API View    2.ViewSet
         - perfect for implementing complex logic
         - Calling other API's
         - Working with local files.
+Serialization:
+    Serializer is a feature in django that easily convert data inputs into python objects and vice versa.
+    
