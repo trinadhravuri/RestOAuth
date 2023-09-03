@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API Pract</title>
+</head>
+<body>
+    <h1>This works</h1>
+    <ul>
+    {% for line in an_apiview %}
+    <li><h1>{{line}}</h1></li>
+    {% endfor %}
+    </ul>
+    <a href="{% url 'api' %}"><button>API Views</button></a>
+    <a href="{% url 'login' %}"><button>login</button></a>
+</body>
+</html>
